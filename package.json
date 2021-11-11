@@ -1,0 +1,26 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelFoc/My-website.git"
+  },
+  "author": "Samuel-Sipikal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamuelFoc/My-website/issues"
+  },
+  "homepage": "https://github.com/SamuelFoc/My-website#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
