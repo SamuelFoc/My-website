@@ -1,0 +1,22 @@
+<script>
+
+    var container = document.getElementById("horizontal");
+    var mainBox = document.getElementById("mainPage");
+    var mainBoxWidth = mainBox.offsetWidth;
+    var mainBoxHeight = mainBox.offsetHeight;
+    var containerWidth = container.offsetWidth;
+    var containerHeight = container.offsetHeight;
+
+    mainBox.addEventListener("wheel", event => {
+        event.preventDefault();
+        container.scrollIntoView({behavior: "smooth"});
+    });
+
+    container.addEventListener("wheel", event => {
+        event.preventDefault();
+        container.scrollLeft += event.deltaY;
+
+        
+    });
+
+</script>
