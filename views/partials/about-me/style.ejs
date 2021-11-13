@@ -12,10 +12,16 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-areas: 
-    "box1 box2 box3"
-    ;
+    grid-template-columns: repeat(3, 1fr); 
     grid-gap: 20px;
+    overflow: hidden;
+}
+
+.box {
+    background-image: linear-gradient(to right top, #000000, #080808, #0f0f0f, #151515, #191919, #222222, #2c2c2c, #363636, #494949, #5c5c5c, #707070, #858585);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
 }
 
 .box-text {
@@ -35,30 +41,6 @@
 .box-text img {
     padding-bottom: 100px;
 }
-/* First box creation */
-.box1 {
-    grid-area: box1;
-    background: rgb(17, 17, 17);
-    color: white;
-}
-.box2 {
-    grid-area: box2;
-    background: rgb(32, 32, 32);
-    color: white;
-}
-.box3 {
-    grid-area: box3;
-    background: rgb(63, 63, 63);
-    color: white;
-}
-
-/* .box-text:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color:rgba(0, 0, 0, 0.116);
-} */
 
 /* .box, .firstContainer, .aboutMe {
     border: 1px solid red;
