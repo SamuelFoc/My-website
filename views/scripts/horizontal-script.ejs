@@ -1,17 +1,34 @@
 <script>
-
+const screenHeight = window.innerHeight;
 const container = document.getElementById("horizontal");
 const firstPage = document.getElementById("firstHorizontalPage");
-   
+const secondPage = document.getElementById("secondHorizontalPage");
+
+
+
 container.addEventListener("wheel", event => {
     event.preventDefault();
 
     if (event.deltaY < 0 && container.scrollLeft === 0){
         box.scrollIntoView({behavior: "smooth"});
-    } else {
-        container.scrollLeft += 2*event.deltaY;
+    
+    } else if (event.deltaY > 0){
+        let newPositionX = container.scrollLeft + window.innerWidth;
+        container.scrollTo({
+            left: newPositionX, 
+            top: screenHeight,
+            behavior: "smooth"
+        });
+    
+    } else if (event.deltaY < 0 && container.scrollLeft !== 0){
+        let newPositionX = container.scrollLeft - window.innerWidth; 
+        container.scrollTo({
+            left: newPositionX, 
+            top: screenHeight,
+            behavior: "smooth"
+        });
     }
-        
+
 });
 
 </script>
