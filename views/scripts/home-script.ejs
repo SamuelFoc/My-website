@@ -1,9 +1,11 @@
 <script>
 
 const box = document.getElementById("mainPage");
+
 const halfWidth = window.innerWidth/2;
 const halfHeight = window.innerHeight/2;
 
+//Imitation of light 
 box.addEventListener("mousemove", (e) => {
     let offsetY = halfHeight - e.clientY;
     let offsetX = halfWidth - e.clientX;
@@ -11,5 +13,13 @@ box.addEventListener("mousemove", (e) => {
 
     box.style.textShadow = offsetX/20 + "px " + offsetY/20 + "px " + distance/20 + "px rgba(0, 0, 0, .15)";
 });
+
+//Downscroll to horizontal scroll section
+box.addEventListener("wheel", event => {
+        event.preventDefault();
+        if (event.deltaY > 0){
+            container.scrollIntoView({behavior: "smooth"});
+        }
+    });
 
 </script>
