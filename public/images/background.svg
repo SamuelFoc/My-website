@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (eb90963e84, 2021-10-02)"
+   sodipodi:docname="background.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.11848345"
+     inkscape:cx="3658.7388"
+     inkscape:cy="2042.4794"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="1366"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="3363.677"
+       y="2910.4323"
+       width="2326.7194"
+       height="595.77786"
+       id="rect92702" />
+    <rect
+       x="4244.7419"
+       y="3012.4404"
+       width="1907.3488"
+       height="613.4473"
+       id="rect84045" />
+    <rect
+       x="645.1385"
+       y="1095.6826"
+       width="3123.2061"
+       height="878.74366"
+       id="rect43028" />
+    <rect
+       x="446.76147"
+       y="280.93231"
+       width="1116.2752"
+       height="256.53956"
+       id="rect22498" />
+    <rect
+       x="299.71882"
+       y="981.80781"
+       width="2280.1273"
+       height="832.42438"
+       id="rect6928" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Blur"
+       id="filter37150"
+       x="-0.19905192"
+       y="-0.25313099"
+       width="1.3981038"
+       height="1.506262">
+      <feGaussianBlur
+         stdDeviation="59.922 50.7888"
+         result="blur"
+         id="feGaussianBlur37148" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Blur"
+       id="filter39002"
+       x="-0.15668485"
+       y="-0.27779076"
+       width="1.3133697"
+       height="1.5555815">
+      <feGaussianBlur
+         stdDeviation="67.8005 68.9018"
+         result="blur"
+         id="feGaussianBlur39000" />
+    </filter>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask39066">
+      <ellipse
+         style="opacity:0.374514;fill:#1c1c1c;fill-opacity:1;stroke:none;stroke-width:0.251451;stroke-opacity:0.823529;filter:url(#filter39002)"
+         id="ellipse39068"
+         cx="1211.6451"
+         cy="1273.9275"
+         rx="519.2627"
+         ry="297.64188" />
+    </mask>
+    <rect
+       x="645.13849"
+       y="1095.6826"
+       width="4809.5634"
+       height="950.92922"
+       id="rect43028-3" />
+    <rect
+       x="645.13849"
+       y="1095.6826"
+       width="4809.5635"
+       height="950.9292"
+       id="rect43028-3-7" />
+    <rect
+       x="645.13849"
+       y="1095.6826"
+       width="4809.5635"
+       height="950.9292"
+       id="rect43028-3-3" />
+    <rect
+       x="645.13849"
+       y="1095.6826"
+       width="4809.5635"
+       height="950.9292"
+       id="rect43028-3-7-2" />
+    <rect
+       x="645.13849"
+       y="1095.6826"
+       width="4809.5635"
+       height="950.9292"
+       id="rect43028-3-3-1" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter120737"
+       x="-0.010446604"
+       y="-0.20251634"
+       width="1.0208932"
+       height="1.5241631">
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood120727" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite120729" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="8.56359"
+         result="blur"
+         id="feGaussianBlur120731" />
+      <feOffset
+         dx="0"
+         dy="12.0901"
+         result="offset"
+         id="feOffset120733" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite120735" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text92700"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect92702)" />
+    <g
+       id="g959"
+       transform="translate(-13.834645,12.375045)"
+       inkscape:export-filename="/home/samuel/Desktop/My Website/public/images/back.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:#ffffff;stroke:none;stroke-width:11.0802;stroke-opacity:0.823529"
+         id="rect846"
+         width="1968.9198"
+         height="1068.9198"
+         x="-21.97019"
+         y="-24.111689" />
+      <g
+         id="g111888"
+         transform="translate(11.497432,77.634652)">
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,663.61478,-233.70178)"
+           id="text43026-6-56-2"
+           style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43028-3-3-1);fill:#5b5b5b;fill-opacity:0.0410844;stroke:none"><tspan
+             x="645.13867"
+             y="1685.5276"
+             id="tspan1008"><tspan
+               dx="0 0 0 0 0 0 0 0 0 0 0.00012207031"
+               id="tspan1006">Engineering</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,1442.9193,-51.815087)"
+           id="text43026-6-5-9"
+           style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43028-3-7-2);fill:#4d4d4d;fill-opacity:0.396619;stroke:none"><tspan
+             x="645.13867"
+             y="1685.5276"
+             id="tspan1010">Art
+</tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,691.99008,268.55836)"
+           id="text43026-6-56"
+           style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43028-3-3);fill:#ececec;fill-opacity:0.445036;stroke:none"><tspan
+             x="645.13867"
+             y="1685.5276"
+             id="tspan1012">Matematics</tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,813.11061,-68.63914)"
+           id="text43026"
+           style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43028);fill:#000000;fill-opacity:0.0695621;stroke:none"><tspan
+             x="645.13867"
+             y="1722.5416"
+             id="tspan1016"><tspan
+               style="font-family:Helvetica;-inkscape-font-specification:Helvetica"
+               id="tspan1014">Physics</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,534.61949,89.740815)"
+           id="text43026-6"
+           style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43028-3);fill:#808080;fill-opacity:0.122925;stroke:none"><tspan
+             x="645.13867"
+             y="1685.5276"
+             id="tspan1020"><tspan
+               dx="0 0 0 0 0 0 0 0 0 0 0.00012207031"
+               id="tspan1018">Programming</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,1113.2911,413.18339)"
+           id="text43026-6-5"
+           style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43028-3-7);fill:#4d4d4d;fill-opacity:0.036652;stroke:none"><tspan
+             x="645.13867"
+             y="1685.5276"
+             id="tspan1022">Design</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
