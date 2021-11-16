@@ -9,8 +9,7 @@
     overflow-y: hidden;
 
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .firstContainer {
@@ -37,7 +36,7 @@
 }
 
 .box h1 {
-    z-index: 10;
+    z-index: 2;
     position: relative;
 }
 
@@ -88,7 +87,6 @@
 
 .box:hover:after {
     opacity: .9;
-    cursor: pointer;
 }
 
 .box:hover {
@@ -106,6 +104,7 @@
     transform: translateY(-300%);
     background: none;
     border-bottom: 2px solid crimson;
+    cursor: pointer;
 }
 
 .box1 {
@@ -117,7 +116,5 @@
     background-image: url("/images/books.jpg");
     background-position-x: -80px;
 }
-/* .box, .firstContainer, .aboutMe {
-    border: 1px solid red;
-} */
+
 </style>
