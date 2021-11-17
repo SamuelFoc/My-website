@@ -6,12 +6,11 @@ const aboutMe2 = document.getElementById("aboutMe2");
 const myWork = document.getElementById("myWork");
 const contacts = document.getElementById("contacts");
 
+
 elementScrollToPages(aboutMe, aboutMe2, box);
 elementScrollToPages(aboutMe2, myWork, aboutMe);
 elementScrollToPages(myWork, contacts, aboutMe2);
 elementScrollToPages(contacts, undefined, myWork);
-
-
 
 
 function elementScrollToPages(element, forDownScroll, forUpScroll){
