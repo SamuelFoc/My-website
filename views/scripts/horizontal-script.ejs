@@ -1,34 +1,30 @@
 <script>
-const screenHeight = window.innerHeight;
-const screenWidth = window.innerWidth;
+
 const container = document.getElementById("horizontal");
-const firstPage = document.getElementById("firstHorizontalPage");
-const secondPage = document.getElementById("secondHorizontalPage");
+const aboutMe = document.getElementById("aboutMe");
+const aboutMe2 = document.getElementById("aboutMe2");
+const myWork = document.getElementById("myWork");
+const contacts = document.getElementById("contacts");
+
+elementScrollToPages(aboutMe, aboutMe2, box);
+elementScrollToPages(aboutMe2, myWork, aboutMe);
+elementScrollToPages(myWork, contacts, aboutMe2);
+elementScrollToPages(contacts, undefined, myWork);
 
 
-container.addEventListener("wheel", event => {
-    event.preventDefault();
 
-    if (event.deltaY < 0 && container.scrollLeft === 0){
-        box.scrollIntoView({behavior: "smooth"});
-    
-    } else if (event.deltaY > 0){
-        let newPositionX = container.scrollLeft + window.innerWidth;
-        container.scrollTo({
-            left: newPositionX, 
-            top: screenHeight,
-            behavior: "smooth"
-        });
-    
-    } else if (event.deltaY < 0 && container.scrollLeft !== 0){
-        let newPositionX = container.scrollLeft - window.innerWidth; 
-        container.scrollTo({
-            left: newPositionX, 
-            top: screenHeight,
-            behavior: "smooth"
-        });
-    }
 
-});
+function elementScrollToPages(element, forDownScroll, forUpScroll){
+    element.addEventListener("wheel", (e) => {
+        event.preventDefault();
+        if (event.deltaY < 0){ 
+            if (forUpScroll !== undefined) forUpScroll.scrollIntoView({behavior: "smooth"})  
+        } else if (event.deltaY > 0){ 
+            if (forDownScroll !== undefined) forDownScroll.scrollIntoView({behavior: "smooth"})
+        };
+    });
+};
 
 </script>
+
+
