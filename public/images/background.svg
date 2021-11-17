@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.11848345"
-     inkscape:cx="3658.7388"
-     inkscape:cy="2042.4794"
+     inkscape:zoom="0.1675609"
+     inkscape:cx="4586.3921"
+     inkscape:cy="2064.9209"
      inkscape:window-width="1920"
      inkscape:window-height="1043"
      inkscape:window-x="1366"
@@ -178,77 +178,74 @@
        id="text92700"
        style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect92702)" />
     <g
-       id="g959"
-       transform="translate(-13.834645,12.375045)"
-       inkscape:export-filename="/home/samuel/Desktop/My Website/public/images/back.png"
+       id="g5698"
+       inkscape:export-filename="/home/samuel/Desktop/My Website/public/images/backgroundImage.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <rect
          style="fill:#ffffff;stroke:none;stroke-width:11.0802;stroke-opacity:0.823529"
          id="rect846"
-         width="1968.9198"
+         width="1968.92"
          height="1068.9198"
-         x="-21.97019"
-         y="-24.111689" />
-      <g
-         id="g111888"
-         transform="translate(11.497432,77.634652)">
-        <text
-           xml:space="preserve"
-           transform="matrix(0.26458333,0,0,0.26458333,663.61478,-233.70178)"
-           id="text43026-6-56-2"
-           style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43028-3-3-1);fill:#5b5b5b;fill-opacity:0.0410844;stroke:none"><tspan
-             x="645.13867"
-             y="1685.5276"
-             id="tspan1008"><tspan
-               dx="0 0 0 0 0 0 0 0 0 0 0.00012207031"
-               id="tspan1006">Engineering</tspan></tspan></text>
-        <text
-           xml:space="preserve"
-           transform="matrix(0.26458333,0,0,0.26458333,1442.9193,-51.815087)"
-           id="text43026-6-5-9"
-           style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43028-3-7-2);fill:#4d4d4d;fill-opacity:0.396619;stroke:none"><tspan
-             x="645.13867"
-             y="1685.5276"
-             id="tspan1010">Art
+         x="-35.804836"
+         y="-11.736644" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,661.27757,-143.69208)"
+         id="text43026-6-56-2"
+         style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43028-3-3-1);fill:#5b5b5b;fill-opacity:0.0410844;stroke:none"><tspan
+           x="645.13867"
+           y="1685.5276"
+           id="tspan5746"><tspan
+             dx="0 0 0 0 0 0 0 0 0 0 0.00012207031"
+             id="tspan5744">Engineering</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,1440.5821,38.19461)"
+         id="text43026-6-5-9"
+         style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43028-3-7-2);fill:#4d4d4d;fill-opacity:0.396619;stroke:none"><tspan
+           x="645.13867"
+           y="1685.5276"
+           id="tspan5748">Art
 </tspan></text>
-        <text
-           xml:space="preserve"
-           transform="matrix(0.26458333,0,0,0.26458333,691.99008,268.55836)"
-           id="text43026-6-56"
-           style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43028-3-3);fill:#ececec;fill-opacity:0.445036;stroke:none"><tspan
-             x="645.13867"
-             y="1685.5276"
-             id="tspan1012">Matematics</tspan></text>
-        <text
-           xml:space="preserve"
-           transform="matrix(0.26458333,0,0,0.26458333,813.11061,-68.63914)"
-           id="text43026"
-           style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43028);fill:#000000;fill-opacity:0.0695621;stroke:none"><tspan
-             x="645.13867"
-             y="1722.5416"
-             id="tspan1016"><tspan
-               style="font-family:Helvetica;-inkscape-font-specification:Helvetica"
-               id="tspan1014">Physics</tspan></tspan></text>
-        <text
-           xml:space="preserve"
-           transform="matrix(0.26458333,0,0,0.26458333,534.61949,89.740815)"
-           id="text43026-6"
-           style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43028-3);fill:#808080;fill-opacity:0.122925;stroke:none"><tspan
-             x="645.13867"
-             y="1685.5276"
-             id="tspan1020"><tspan
-               dx="0 0 0 0 0 0 0 0 0 0 0.00012207031"
-               id="tspan1018">Programming</tspan></tspan></text>
-        <text
-           xml:space="preserve"
-           transform="matrix(0.26458333,0,0,0.26458333,1113.2911,413.18339)"
-           id="text43026-6-5"
-           style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43028-3-7);fill:#4d4d4d;fill-opacity:0.036652;stroke:none"><tspan
-             x="645.13867"
-             y="1685.5276"
-             id="tspan1022">Design</tspan></text>
-      </g>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,579.83487,358.56806)"
+         id="text43026-6-56"
+         style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43028-3-3);fill:#ececec;fill-opacity:0.445036;stroke:none"><tspan
+           x="645.13867"
+           y="1685.5276"
+           id="tspan5752"><tspan
+             dx="0 0 0 0 0 0 0 0 0.00018310547"
+             id="tspan5750">Mathematics</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,810.7734,21.370557)"
+         id="text43026"
+         style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43028);fill:#000000;fill-opacity:0.0695621;stroke:none"><tspan
+           x="645.13867"
+           y="1722.5416"
+           id="tspan5756"><tspan
+             style="font-family:Helvetica;-inkscape-font-specification:Helvetica"
+             id="tspan5754">Physics</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,532.28228,179.75051)"
+         id="text43026-6"
+         style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43028-3);fill:#808080;fill-opacity:0.122925;stroke:none"><tspan
+           x="645.13867"
+           y="1685.5276"
+           id="tspan5760"><tspan
+             dx="0 0 0 0 0 0 0 0 0 0 0.00012207031"
+             id="tspan5758">Programming</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,1110.9539,503.19309)"
+         id="text43026-6-5"
+         style="font-style:normal;font-weight:normal;font-size:666.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43028-3-7);fill:#4d4d4d;fill-opacity:0.036652;stroke:none"><tspan
+           x="645.13867"
+           y="1685.5276"
+           id="tspan5762">Design</tspan></text>
     </g>
   </g>
 </svg>
