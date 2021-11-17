@@ -3,8 +3,10 @@
 <nav class="navigationBar" id="navigationBar">
     <ul>
         <li class="name">Samuel Šipikal</li>
-        <li class="nav-li">About me</li>
-        <li class="nav-li">My work</li>
-        <li class="nav-li">Contacts</li>
+        <li class="nav-li" onclick="scrollToAboutmePage()">About me</li>
+        <li class="nav-li" onclick="scrollToMyworkPage()">My work</li>
+        <li class="nav-li" onclick="scrollToContactsPage()">Contacts</li>
     </ul>
 </nav>
+
+<%- include("script.ejs") %> 
