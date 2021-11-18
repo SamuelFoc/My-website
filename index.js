@@ -5,7 +5,7 @@ const nodemailer = require("nodemailer");
 
 
 const app = express();
-const port = 3000;
+const port = 4000;
 
 //Static folder
 app.use(express.static("public"));
@@ -66,12 +66,12 @@ app.post("/send", (req, res) => {
         }
       });
 
-      res.render("main", {msg:"Email has been sent"})
+      res.render("main");
       
       document.getElementById("contacts").scrollIntoView({behavior: "smooth"});
 });
 
-//Start server on localhost - port 3000
+//Start server on localhost - port: port
 app.listen(port, () => {
     console.log("listening on port:" + port);
 });
