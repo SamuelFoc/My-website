@@ -35,6 +35,8 @@ app.post("/send", (req, res) => {
         <p>${req.body.message}</p>
     `;
 
+    console.log(req.body);
+
     var transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",
         port: 465,
@@ -67,8 +69,6 @@ app.post("/send", (req, res) => {
       });
 
       res.render("main");
-      
-      document.getElementById("contacts").scrollIntoView({behavior: "smooth"});
 });
 
 //Start server on localhost - port: port
