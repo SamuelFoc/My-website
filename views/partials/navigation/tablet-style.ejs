@@ -1,0 +1,39 @@
+<style>
+@media (max-width: 801px){   
+    nav {
+        position: fixed;
+        opacity: 0;
+        transition: .3s;
+    }
+
+    nav:hover {
+        opacity: 1;
+    }
+
+    .navigationBar li {
+        padding: 0.5% 10px;
+        margin-bottom: 0;
+        list-style-type: none;
+        transition: .2s;
+    }
+    
+    .nav-li:hover {
+        border-bottom: 1px solid crimson;
+        text-shadow: 0 8px 5px rgba(0, 0, 0, 0.212);
+        transform: translateY(-1px);
+        cursor: pointer;
+    }
+    
+    .name {
+        margin-right: 10%;
+        font-family: 'Arizonia', cursive;
+        font-size: 24px;
+    }
+    
+    .nav-li {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        font-weight: 300;
+    }
+}
+</style>
