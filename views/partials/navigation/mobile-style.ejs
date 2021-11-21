@@ -1,9 +1,14 @@
 <style>
-@media (max-width: 801px){   
+
+@media (max-width: 460px){  
     nav {
         position: fixed;
         opacity: 1;
         transition: .3s;
+    }
+
+    .navigationBar ul {
+        justify-content: center;
     }
 
     .navigationBar li {
@@ -21,15 +26,19 @@
     }
     
     .name {
-        margin-right: 10%;
+        margin-right: 0;
         font-family: 'Arizonia', cursive;
-        font-size: 24px;
+        font-size: 10px;
+        display: none;
+        transform: translateX(-400px);
     }
     
     .nav-li {
         font-family: 'Montserrat', sans-serif;
-        font-size: 17px;
+        font-size: 20px;
         font-weight: 300;
     }
 }
+
+
 </style>

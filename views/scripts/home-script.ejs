@@ -1,5 +1,5 @@
+<script src="https://unpkg.com/swipe-event-listener@1.2.1/dist/swipe-event-listener.js"></script>
 <script>
-
 const box = document.getElementById("mainPage");
 
 const halfWidth = window.innerWidth/2;
@@ -20,6 +20,17 @@ box.addEventListener("wheel", event => {
     if (event.deltaY > 0){
         aboutMe.scrollIntoView({behavior: "smooth"});
     }
+});
+
+//Swipe functions
+const SwipeEventListener = window.SwipeEventListener.SwipeEventListener;
+const { swipeArea, updateOptions } = SwipeEventListener({
+  swipeArea: box
+});
+
+swipeArea.addEventListener('swipeUp', () => {
+    aboutMe.scrollIntoView({behavior: "smooth"});
+    console.log("swipe-up");
 });
 
 </script>

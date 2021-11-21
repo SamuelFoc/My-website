@@ -17,7 +17,7 @@
     margin-bottom: 5%;
     color: black;
 
-    font-size: 2vw;
+    font-size: 2vmax;
     font-weight: 100;
 }
 
@@ -27,4 +27,32 @@
     color: rgb(99, 99, 99);
 }
 
+@media (max-width: 801px){
+    .mainPage {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: left;
+    align-items:center;
+
+    background: url("images/backgroundImage.png");
+    background-size: 100vw 100vh;
+}
+
+    .introduction {
+    margin-left: 2%;
+    margin-bottom: 5%;
+    color: black;
+
+    font-size: 3vmax;
+    font-weight: 100;
+}
+
+.introduction p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: rgb(99, 99, 99);
+}
+}
 </style>
