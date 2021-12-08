@@ -20,15 +20,15 @@ box.addEventListener("wheel", event => {
     if (event.deltaY > 0){
         aboutMe.scrollIntoView({behavior: "smooth"});
     }
+    console.log("scroll");
 });
 
 //Swipe functions
-const SwipeEventListener = window.SwipeEventListener.SwipeEventListener;
-const { swipeArea, updateOptions } = SwipeEventListener({
-  swipeArea: box
-});
+const { SwipeEventListener } = window.SwipeEventListener;
+const { swipeArea, updateOptions } = SwipeEventListener({ swipeArea: box });
 
-swipeArea.addEventListener('swipeUp', () => {
+swipeArea.addEventListener('swipeDown', event => {
+    event.preventDefault();
     aboutMe.scrollIntoView({behavior: "smooth"});
     console.log("swipe-up");
 });
